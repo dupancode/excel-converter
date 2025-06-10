@@ -1,0 +1,75 @@
+article {
+  font-family: system-ui, sans-serif;
+  line-height: 1.75;
+  color: #1a202c; /* Tailwind gray-900 */
+}
+
+article h2, article h3, article h4 {
+  font-weight: 700;
+  line-height: 1.4;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+article h2 {
+  font-size: clamp(1.5rem, 2vw, 2rem);
+  border-bottom: 2px solid #e5e7eb; /* Tailwind gray-200 */
+  padding-bottom: 0.25rem;
+}
+
+article h3 {
+  font-size: clamp(1.25rem, 1.8vw, 1.5rem);
+}
+
+article h4 {
+  font-size: clamp(1.1rem, 1.5vw, 1.25rem);
+  font-weight: 600;
+}
+
+article p {
+  margin-bottom: 1.25rem;
+  color: #2d3748; /* Tailwind gray-800 */
+}
+
+article ul, article ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+article ul li, article ol li {
+  margin-bottom: 0.5rem;
+}
+
+article ul li::marker {
+  color: #4b5563; /* Tailwind gray-600 */
+}
+
+article ol {
+  list-style-type: decimal;
+}
+
+article code {
+  background-color: #f9fafb; /* Tailwind gray-50 */
+  padding: 0.15rem 0.4rem;
+  border-radius: 0.25rem;
+  font-family: Menlo, Consolas, monospace;
+  font-size: 0.95em;
+  color: #d6336c; /* sedikit pink untuk aksen */
+}
+
+article pre {
+  background-color: #f3f4f6; /* Tailwind gray-100 */
+  padding: 1rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+  font-family: Menlo, Consolas, monospace;
+  font-size: 0.95em;
+  color: #1f2937; /* Tailwind gray-800 */
+}
+
+article hr {
+  border: none;
+  border-top: 1px solid #e5e7eb; /* Tailwind gray-200 */
+  margin: 2rem 0;
+}
